@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css" />
+  <title>Frontend Mentor | E-commerce product page</title>  
+</head>
+
+<body>
+  <div class="banniere">
+    <div class="logo">
+      <img src="images/logo.svg" />
+    </div>
+
+    <div class="menu">
+      <p>Collections</p>      
+    <p>Men</p> 
+    <p>Women</p>
+    <p>About</p>
+    <p>Contact</p>  
+    </div>
+
+    <div class="banniere_droite">
+      <div class="icon-cart">
+        <img src="images/icon-cart.svg" />
+      </div>
+      <div class="image-avatar">
+         <img src="images/image-avatar.png" />
+      </div>           
+    </div>
+  </div>
+
+  <!----------------------- CONTENU --------------------------------->
+  <div class="contenu">
+    <div class="contenu_gauche">
+      <!------- DEBUT GALERIE IMAGE-------->
+      <div class="cadre-demo1">
+        <div class="photos-mini">
+            <div class="miniature">
+                <input type="radio" name="demo" checked class="fen" id="lightbox-1" />
+                <label for="lightbox-1">
+                    <img src="images/image-product-1-thumbnail.jpg" alt >
+                </label>
+                <img class="fenetre" src="images/image-product-1.jpg" alt>
+            </div>
+
+            <div class="miniature">
+                <input type="radio" name="demo" checked class="fen" id="lightbox-2" />
+                <label for="lightbox-2">
+                    <img src="images/image-product-2-thumbnail.jpg" alt >
+                </label>
+                <img class="fenetre" src="images/image-product-2.jpg" alt>
+            </div>
+
+            <div class="miniature">
+                <input type="radio" name="demo" checked class="fen" id="lightbox-3" />
+                <label for="lightbox-3">
+                    <img src="images/image-product-3-thumbnail.jpg" alt >
+                </label>
+                <img class="fenetre" src="images/image-product-3.jpg" alt>
+            </div>
+
+            <div class="miniature">
+                <input type="radio" name="demo" checked class="fen" id="lightbox-4" />
+                <label for="lightbox-4">
+                    <img src="images/image-product-4-thumbnail.jpg" alt >
+                </label>
+                <img class="fenetre" src="images/image-product-4.jpg" alt>
+            </div>
+          </div>            
+        </div>        
+    </div>
+  <!----------- FIN GALERIE IMAGE ---------->
+    <div class="contenu_droite">
+      <div class="contenu_droite_texte">
+
+          <p class="texte_sneaker">SNEAKER COMPANY</p>
+
+          <p class="texte_fall_limited">Fall Limited Edition Sneakers</p>
+
+          <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+          durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+          
+          <div class="texte_cotation">
+            <p class="texte_prix">$125.00</p>
+            <p class="texte_50">50%</p>
+          </div>       
+         <p class="texte_prix_normal">$250.00</p>       
+      </div>
+          <div class="contenu_droite_bouton">
+            <div class="add_nbre">
+              <img src="images/icon-minus.svg" />
+              <p>0</p>
+              <img src="images/icon-plus.svg" />
+              
+            </div>
+
+            <div class="validation">              
+              <div class="icon-cart2">
+                <img src="images/icon-cart.svg" />
+              </div>
+                <p class="add_btn">Add to cart</p>
+            </div>
+          </div>
+    </div>
+</div>
+
+  <!--div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div-->
+</body>
+</html>
